@@ -48,7 +48,7 @@ export function HeroSection() {
       <div ref={contentRef} className="flex-1 w-full">
         <SplitFlapAudioProvider>
           <div className="relative">
-            <SplitFlapText text="INTERFACE" speed={80} />
+            <SplitFlapText text="VEERESH" speed={80} />
             <div className="mt-4">
               <SplitFlapMuteToggle />
             </div>
@@ -56,11 +56,11 @@ export function HeroSection() {
         </SplitFlapAudioProvider>
 
         <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          Studies in Controlled Environments
+          Software Engineer & Problem Solver
         </h2>
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
-          We design systems that behave, not just screens that display. Signals from the edge of what&apos;s shippable.
+          Full-stack developer specializing in React, Node.js, and cloud infrastructure. Passionate about building scalable systems and solving complex problems.
         </p>
 
         <div className="mt-16 flex items-center gap-8">

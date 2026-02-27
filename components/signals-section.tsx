@@ -9,29 +9,29 @@ gsap.registerPlugin(ScrollTrigger)
 
 const signals = [
   {
-    date: "2025.06.10",
-    title: "Signal Field",
-    note: "New interface paradigm for ambient computing environments.",
+    date: "2025.01.15",
+    title: "KodNest Internship",
+    note: "Software Development Intern at KodNest Technologies. Practical skills in Java, MySQL, React, and Manual Testing.",
   },
   {
-    date: "2025.05.28",
-    title: "Silent Agent",
-    note: "Orchestration layer for autonomous design systems.",
+    date: "2024.12.20",
+    title: "MongoDB Certification",
+    note: "Completed MongoDB certification from Bangalore Technological Institute.",
   },
   {
-    date: "2025.05.15",
-    title: "Noir Grid",
-    note: "Typographic system for editorial interfaces.",
+    date: "2024.11.30",
+    title: "Full-Stack Mastery",
+    note: "Advanced proficiency in React, Node.js, and database design patterns.",
   },
   {
-    date: "2025.04.30",
-    title: "Project Lattice",
-    note: "Structural framework for adaptive layouts.",
+    date: "2024.10.15",
+    title: "AI Systems Project",
+    note: "Lead system architecture design for AI-driven smart drones project.",
   },
   {
-    date: "2025.04.12",
-    title: "Echo Chamber",
-    note: "Audio-visual synthesis in browser environments.",
+    date: "2024.09.01",
+    title: "Backend Development",
+    note: "Deep expertise in Node.js, Express, and RESTful API architecture.",
   },
 ]
 
@@ -135,8 +135,8 @@ export function SignalsSection() {
 
       {/* Section header */}
       <div ref={headerRef} className="mb-16 pr-6 md:pr-12">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">01 / Signals</span>
-        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">WHAT&apos;S NEW</h2>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">01 / Timeline</span>
+        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">RECENT UPDATES</h2>
       </div>
 
       {/* Horizontal scroll container */}

@@ -9,39 +9,39 @@ gsap.registerPlugin(ScrollTrigger)
 
 const experiments = [
   {
-    title: "Project Lattice",
-    medium: "Interface Study",
-    description: "Structural framework for adaptive layouts in dynamic content systems.",
+    title: "AI-Driven Smart Drones",
+    medium: "System Architecture",
+    description: "Designed and integrated components for autonomous animal surveillance and targeting systems.",
     span: "col-span-2 row-span-2",
   },
   {
-    title: "Signal Field",
-    medium: "Agent Orchestration",
-    description: "Autonomous coordination layer for multi-agent environments.",
+    title: "React Applications",
+    medium: "Frontend",
+    description: "Built dynamic user interfaces with modern React patterns and state management.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Silent Agent",
-    medium: "Visual System",
-    description: "Non-intrusive interface patterns for ambient computing.",
+    title: "Node.js Backend",
+    medium: "Backend Development",
+    description: "Developed scalable server applications and REST APIs with Node.js and Express.",
     span: "col-span-1 row-span-2",
   },
   {
-    title: "Noir Grid",
-    medium: "Typography",
-    description: "High-contrast typographic system for editorial interfaces.",
+    title: "MongoDB Solutions",
+    medium: "Database Design",
+    description: "Designed and optimized NoSQL database schemas for high-performance applications.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Echo Chamber",
-    medium: "Audio-Visual",
-    description: "Generative soundscapes mapped to interface interactions.",
+    title: "Manual Testing & QA",
+    medium: "Quality Assurance",
+    description: "Comprehensive testing strategies and bug identification in real-world applications.",
     span: "col-span-2 row-span-1",
   },
   {
-    title: "Void Protocol",
-    medium: "Experimental",
-    description: "Negative space as primary interaction medium.",
+    title: "Java Development",
+    medium: "Backend Engineering",
+    description: "Core logic implementation and enterprise-level application development.",
     span: "col-span-1 row-span-1",
   },
 ]
@@ -98,11 +98,11 @@ export function WorkSection() {
       {/* Section header */}
       <div ref={headerRef} className="mb-16 flex items-end justify-between">
         <div>
-          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02 / Experiments</span>
-          <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">SELECTED WORK</h2>
+          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02 / Projects</span>
+          <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">TECHNICAL EXPERTISE</h2>
         </div>
         <p className="hidden md:block max-w-xs font-mono text-xs text-muted-foreground text-right leading-relaxed">
-          Studies across interface design, agent systems, and visual computation.
+          Full-stack development across frontend, backend, database design, and system architecture.
         </p>
       </div>
 

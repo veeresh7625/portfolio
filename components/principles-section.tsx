@@ -16,37 +16,37 @@ export function PrinciplesSection() {
     {
       number: "01",
       titleParts: [
-        { text: "INTERFACE", highlight: true },
-        { text: " MINIMALISM", highlight: false },
+        { text: "CLEAN", highlight: true },
+        { text: " CODE", highlight: false },
       ],
-      description: "Reduce until only the essential remains. Every element earns its place.",
+      description: "Write maintainable, scalable solutions. Code quality over quick fixes.",
       align: "left",
     },
     {
       number: "02",
       titleParts: [
-        { text: "SYSTEMS", highlight: true },
-        { text: " OVER SCREENS", highlight: false },
+        { text: "PROBLEM", highlight: true },
+        { text: " SOLVING", highlight: false },
       ],
-      description: "Design behaviors, not just layouts. Build logic that scales.",
+      description: "Approach challenges systematically. Break complex problems into manageable parts.",
       align: "right",
     },
     {
       number: "03",
       titleParts: [
-        { text: "CONTROLLED ", highlight: false },
-        { text: "TENSION", highlight: true },
+        { text: "CONTINUOUS ", highlight: false },
+        { text: "LEARNING", highlight: true },
       ],
-      description: "Balance between restraint and expression. Confidence without excess.",
+      description: "Stay updated with emerging technologies. Adapt and evolve with industry standards.",
       align: "left",
     },
     {
       number: "04",
       titleParts: [
-        { text: "SIGNAL ", highlight: false },
-        { text: "CLARITY", highlight: true },
+        { text: "FULL-STACK ", highlight: false },
+        { text: "EXPERTISE", highlight: true },
       ],
-      description: "Communication that cuts through noise. Precision in every interaction.",
+      description: "Master both frontend and backend development. Understand the complete system.",
       align: "right",
     },
   ]
@@ -93,8 +93,8 @@ export function PrinciplesSection() {
     <section ref={sectionRef} id="principles" className="relative py-32 pl-6 md:pl-28 pr-6 md:pr-12">
       {/* Section header */}
       <div ref={headerRef} className="mb-24">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">03 / Principles</span>
-        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">HOW WE WORK</h2>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">03 / Core Values</span>
+        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">DEVELOPMENT PHILOSOPHY</h2>
       </div>
 
       {/* Staggered principles */}

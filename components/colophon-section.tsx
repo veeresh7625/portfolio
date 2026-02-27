@@ -75,47 +75,49 @@ export function ColophonSection() {
     >
       {/* Section header */}
       <div ref={headerRef} className="mb-16">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">04 / Colophon</span>
-        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">CREDITS</h2>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">04 / About</span>
+        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">CONTACT & INFO</h2>
       </div>
 
       {/* Multi-column layout */}
       <div ref={gridRef} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 md:gap-12">
-        {/* Design */}
+        {/* Skills */}
         <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Design</h4>
+          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Tech Stack</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Signal Studio</li>
-            <li className="font-mono text-xs text-foreground/80">Interface Lab</li>
+            <li className="font-mono text-xs text-foreground/80">React</li>
+            <li className="font-mono text-xs text-foreground/80">Node.js</li>
+            <li className="font-mono text-xs text-foreground/80">Java</li>
+            <li className="font-mono text-xs text-foreground/80">MongoDB</li>
           </ul>
         </div>
 
-        {/* Stack */}
+        {/* Education */}
         <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Stack</h4>
+          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Education</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Next.js</li>
-            <li className="font-mono text-xs text-foreground/80">Tailwind CSS</li>
-            <li className="font-mono text-xs text-foreground/80">Vercel</li>
+            <li className="font-mono text-xs text-foreground/80">B.E. Engineering</li>
+            <li className="font-mono text-xs text-foreground/80">BTI Bangalore</li>
+            <li className="font-mono text-xs text-foreground/80">CGPA: 8.7</li>
           </ul>
         </div>
 
-        {/* Typography */}
+        {/* Experience */}
         <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Typography</h4>
+          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Experience</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Bebas Neue</li>
-            <li className="font-mono text-xs text-foreground/80">Inter</li>
-            <li className="font-mono text-xs text-foreground/80">Geist Mono</li>
+            <li className="font-mono text-xs text-foreground/80">KodNest Intern</li>
+            <li className="font-mono text-xs text-foreground/80">Jan - Mar 2025</li>
           </ul>
         </div>
 
-        {/* Location */}
+        {/* Languages */}
         <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Location</h4>
+          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Languages</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Remote</li>
-            <li className="font-mono text-xs text-foreground/80">Everywhere</li>
+            <li className="font-mono text-xs text-foreground/80">Kannada (Fluent)</li>
+            <li className="font-mono text-xs text-foreground/80">Hindi (Fluent)</li>
+            <li className="font-mono text-xs text-foreground/80">English (Fluent)</li>
           </ul>
         </div>
 
@@ -125,7 +127,7 @@ export function ColophonSection() {
           <ul className="space-y-2">
             <li>
               <a
-                href="mailto:hello@signal.studio"
+                href="mailto:veereshshivaling4@gmail.com"
                 className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
               >
                 Email
@@ -133,21 +135,21 @@ export function ColophonSection() {
             </li>
             <li>
               <a
-                href="#"
+                href="tel:+917483837625"
                 className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
               >
-                Twitter/X
+                +91 7483837625
               </a>
             </li>
           </ul>
         </div>
 
-        {/* Year */}
+        {/* Location */}
         <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Year</h4>
+          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Location</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">2025</li>
-            <li className="font-mono text-xs text-foreground/80">Ongoing</li>
+            <li className="font-mono text-xs text-foreground/80">Bengaluru</li>
+            <li className="font-mono text-xs text-foreground/80">Karnataka, India</li>
           </ul>
         </div>
       </div>
@@ -158,9 +160,9 @@ export function ColophonSection() {
         className="mt-24 pt-8 border-t border-border/20 flex flex-col md:flex-row md:items-center md:justify-between gap-4"
       >
         <p className="font-mono text-[10px] text-muted-foreground uppercase tracking-widest">
-          © 2025 Signal. All rights reserved.
+          © 2025 Veeresh. All rights reserved.
         </p>
-        <p className="font-mono text-[10px] text-muted-foreground">Designed with intention. Built with precision.</p>
+        <p className="font-mono text-[10px] text-muted-foreground">Built with passion. Engineered with precision.</p>
       </div>
     </section>
   )
